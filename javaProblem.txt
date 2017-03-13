@@ -1,0 +1,19 @@
+Develop a command line calculator that can be used to find the min and max values of a given list of numbers. You should be able to use the program as mentioned below.
+
+>> java Calculator min 63 25 62 2 15 25 62 25 15 
+The min value = 2
+
+>> java Calculator max 6 25 62 2 15 25 65 25 15 
+The max value = 65
+
+>> java Calculator
+Invalid Operation.
+The format is "Calculator <operation> <Operand list>"
+
+>> java Calculator min
+Invalid Operand list.
+The format is "Calculator <operation> <Operand list>"
+
+>> java Calculator man
+"man" is not a valid operation.
+The format is "Calculator <operation> <Operand list>"
